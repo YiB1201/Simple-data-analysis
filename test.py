@@ -79,8 +79,8 @@ class weighfun():
             d1 =[]
             messagebox.showinfo("开始计算","即将开始计算")
             for i in self.l1:
-                self.all_1 += int(i)*self.l2[self.l1.index(i)]
-                d1.append(i+"的权数为:" + str(int(i)*self.l2[self.l1.index(i)]))
+                self.all_1 += float(i)*self.l2[self.l1.index(i)]
+                d1.append(i+"的权数为:" + str(float(i)*self.l2[self.l1.index(i)]))
             print("权数总和为：", self.all_1)
             for data_1 in d1:
                 information = information + data_1 + ",     "
